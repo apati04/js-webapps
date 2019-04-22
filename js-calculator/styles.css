@@ -1,5 +1,36 @@
-.number-button {
+body {
+  background: linear-gradient(
+    to right,
+    #757f9a,
+    #d7dde8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+input:hover,
+input:active,
+input:focus,
+textarea:hover,
+textarea:active,
+textarea:focus,
+button:hover,
+button:active,
+button:focus {
+  outline: none;
+}
+.calc-padding {
+  padding: 16px;
+}
+.left-padding {
+  padding-left: 16px;
+}
+.right-padding {
+  padding-right: 16px;
+}
+#result {
+  width: 100%;
+}
+
+.btn-calc {
   width: 56px;
-  height: 56px;
+  height: 36px;
   border: none !important;
 }
